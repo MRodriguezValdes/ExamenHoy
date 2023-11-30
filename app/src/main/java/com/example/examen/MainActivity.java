@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Cargar TrainingProgramsListFragment en el contenedor
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.fragmentList, new TrainingProgramsListFragment())
+                    .replace(R.id.fragmentListContainer, new TrainingProgramsListFragment())
                     .commit();
         } else {
             setContentView(R.layout.activity_main);

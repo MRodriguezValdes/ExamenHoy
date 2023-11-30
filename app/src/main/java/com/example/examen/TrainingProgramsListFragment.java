@@ -20,8 +20,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TrainingProgramsListFragment extends Fragment {
-    private List<TrainingProgram> trainingPrograms;
-    private CustomTrainingProgramAdapter adapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
