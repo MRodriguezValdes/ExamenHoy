@@ -42,6 +42,12 @@ public class TrainingProgramDetailsFragment extends Fragment {
             case "Extremists a tope":
                 return "Correr 5 km\nHacer prensa 3 veces al día\nComer dinosaurios";
             // Otros casos para el resto de las opciones
+            case "Agonia maxima":
+                return "molt be 1";
+            case  "Entrenament especial":
+                return "molt be 2";
+            case  "Força i longitud":
+                return "molt be 3";
             default:
                 return "Detalles no disponibles";
         }

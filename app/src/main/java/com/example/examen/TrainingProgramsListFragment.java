@@ -33,9 +33,9 @@ public class TrainingProgramsListFragment extends Fragment {
 
         List<TrainingProgram> trainingPrograms = new ArrayList<>();
         trainingPrograms.add(new TrainingProgram("Extremists a tope", R.drawable._1));
-        trainingPrograms.add(new TrainingProgram("Agonia maxima ", R.drawable._2));
-        trainingPrograms.add(new TrainingProgram("Entrenament especial ", R.drawable._3));
-        trainingPrograms.add(new TrainingProgram("Força i longitud ", R.drawable._4));
+        trainingPrograms.add(new TrainingProgram("Agonia maxima", R.drawable._2));
+        trainingPrograms.add(new TrainingProgram("Entrenament especial", R.drawable._3));
+        trainingPrograms.add(new TrainingProgram("Força i longitud", R.drawable._4));
 
 
         // Agrega otros elementos de la lista con sus respectivos iconos
